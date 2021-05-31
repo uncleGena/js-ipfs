@@ -301,7 +301,7 @@ An object may have the following optional fields:
 ### Example
 
 ```JavaScript
-await ipfs.pin.remote.sevice.add('pinata', {
+await ipfs.pin.remote.srevice.add('pinata', {
   endpoint: new URL('https://api.pinata.cloud'),
   key: 'your-pinata-key'
 })
@@ -372,7 +372,7 @@ Object has following fields:
 ### Example
 
 ```JavaScript
-await ipfs.pin.remote.sevice.ls()
+await ipfs.pin.remote.service.ls()
 // [{
 //   service: 'pinata'
 //   endpoint: new URL('https://api.pinata.cloud'),
@@ -426,7 +426,7 @@ An object may have the following optional fields:
 ### Example
 
 ```JavaScript
-await ipfs.pin.remote.sevice.rm('pinata')
+await ipfs.pin.remote.service.rm('pinata')
 ```
 
 A great source of [examples][] can be found in the tests for this API.
